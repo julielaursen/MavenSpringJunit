@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bharath.product.dao.ProductDAOImplTest" time="0.078" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bharath.product.dao.ProductDAOImplTest" time="0.094" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Julie\workspace\productservices\target\test-classes;C:\Users\Julie\workspace\productservices\target\classes;C:\Users\Julie\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Julie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Julie\workspace\productservices\target\test-classes;C:\Users\Julie\workspace\productservices\target\classes;C:\Users\Julie\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Julie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-context\5.0.8.RELEASE\spring-context-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-aop\5.0.8.RELEASE\spring-aop-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-beans\5.0.8.RELEASE\spring-beans-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-core\5.0.8.RELEASE\spring-core-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-jcl\5.0.8.RELEASE\spring-jcl-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-expression\5.0.8.RELEASE\spring-expression-5.0.8.RELEASE.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,8 +18,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Julie\AppData\Local\Temp\surefire5499359724639205283\surefirebooter6617995262907011471.jar C:\Users\Julie\AppData\Local\Temp\surefire5499359724639205283 2018-08-14T21-58-22_679-jvmRun1 surefire345990308738346760tmp surefire_04176251255803455022tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\Julie\workspace\productservices\target\test-classes;C:\Users\Julie\workspace\productservices\target\classes;C:\Users\Julie\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Julie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\Julie\AppData\Local\Temp\surefire2850821726874693274\surefirebooter8865603596111750927.jar C:\Users\Julie\AppData\Local\Temp\surefire2850821726874693274 2018-08-18T15-34-51_416-jvmRun1 surefire6632418728519486284tmp surefire_07094182632684224007tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Julie\workspace\productservices\target\test-classes;C:\Users\Julie\workspace\productservices\target\classes;C:\Users\Julie\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Julie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-context\5.0.8.RELEASE\spring-context-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-aop\5.0.8.RELEASE\spring-aop-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-beans\5.0.8.RELEASE\spring-beans-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-core\5.0.8.RELEASE\spring-core-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-jcl\5.0.8.RELEASE\spring-jcl-5.0.8.RELEASE.jar;C:\Users\Julie\.m2\repository\org\springframework\spring-expression\5.0.8.RELEASE\spring-expression-5.0.8.RELEASE.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Julie"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Julie\AppData\Local\Temp\surefire5499359724639205283\surefirebooter6617995262907011471.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Julie\AppData\Local\Temp\surefire2850821726874693274\surefirebooter8865603596111750927.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="createShouldCreateAProduct" classname="com.bharath.product.dao.ProductDAOImplTest" time="0.004"/>
+  <testcase name="createShouldCreateAProduct" classname="com.bharath.product.dao.ProductDAOImplTest" time="0.006"/>
 </testsuite>
